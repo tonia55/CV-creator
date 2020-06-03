@@ -1,0 +1,25 @@
+/* bendri */
+
+.whole-area{
+    border: 0.5px solid grey;
+    background-image: url(../IMG/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* kontaktams */
+
+.contacts {
+    margin-left: 30%;
+}
+
+/* nauja klasė JS */
+
+.newPage {
+    border: 0.5px solid grey;
+    width: 1000px;
+    height: auto;
+}
+
+
+

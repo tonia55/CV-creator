@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Alfa-CV</title>
+</head>
+
+<body>
+    <main class="whole-area container pb-5 mt-5" id="wholePage">
+      
+       <!-- footer: logotipas + kontaktai -->
+       
+        <header class="container mt-4">
+            <img src="IMG/logo.png" class="rounded float-left" alt="logo" id="logo">
+            <form class="contacts pt-5" id="contForm">
+                <label id="contData">Kontaktiniai duomenys</label>
+                <div class="row pb-2">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <input type="text" class="form-control" placeholder="Vardas">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <input type="text" class="form-control" placeholder="Pavardė">
+                    </div>
+                </div>
+                <div class="row pb-2">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <input type="text" class="form-control" placeholder="Telefono nr.">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <input type="text" class="form-control" placeholder="El.paštas">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <input type="text" class="form-control" placeholder="Miestas">
+                    </div>
+                </div>
+            </form>
+        </header>
+        
+        <!-- pagrindinė navigacija -->
+        
+        <section class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="nav flex-column nav-pills pt-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-experience-tab" data-toggle="pill" href="#v-pills-experience" role="tab" aria-controls="v-pills-experience" aria-selected="true">Patirtis</a>
+                        <a class="nav-link" id="v-pills-education-tab" data-toggle="pill" href="#v-pills-education" role="tab" aria-controls="v-pills-education" aria-selected="false">Išsilavinimas</a>
+                        <a class="nav-link" id="v-pills-skills-tab" data-toggle="pill" href="#v-pills-skills" role="tab" aria-controls="v-pills-skills" aria-selected="false">Teigiamos savybės/Igūdžiai</a>
+                        <a class="nav-link" id="v-pills-lang-tab" data-toggle="pill" href="#v-pills-lang" role="tab" aria-controls="v-pills-lang" aria-selected="false">Kalbos</a>
+                        <a class="nav-link" id="v-pills-hobby-tab" data-toggle="pill" href="#v-pills-hobby" role="tab" aria-controls="v-pills-hobby" aria-selected="false">Pomėgiai/Hobis</a>
+                        <a class="nav-link" id="v-pills-links-tab" data-toggle="pill" href="#v-pills-links" role="tab" aria-controls="v-pills-links" aria-selected="false">Nuorodos</a>
+                        <a class="nav-link" id="v-pills-other-tab" data-toggle="pill" href="#v-pills-other" role="tab" aria-controls="v-pills-other" aria-selected="false">Kita info</a>
+                    </div>
+                </div>
+                
+                <!-- visos formos -->
+                
+                <div class="col-9 pl-5">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-experience" role="tabpanel" aria-labelledby="v-pills-experience-tab">
+                            <form class="pt-5" id="experience">
+                                <label>Patirtis</label>
+                                <div class="row pb-2">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control" placeholder="Įmonės pavadinimas">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-4">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                    <div class="col-4">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control" placeholder="Pareigos">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control" placeholder="Pareigų aprašymas">
+                                    </div>
+                                </div>
+                                <a href="#">Pridėti</a>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-education" role="tabpanel" aria-labelledby="v-pills-education-tab">
+                            <form class="pt-5" id="education">
+                                <label>Išsilavinimas</label>
+                                <div class="row pb-2">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control" placeholder="Ugdymo įstaiga">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-4">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                    <div class="col-4">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control" placeholder="Specialybė">
+                                    </div>
+                                </div>
+                                <a href="#">Pridėti</a>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab">
+                            <form class="pt-5" id="skills">
+                                <label>Teigiamos savybės/Įgūdžiai</label>
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <a href="#">Pridėti</a>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-lang" role="tabpanel" aria-labelledby="v-pills-lang-tab">
+                            <form class="pt-5" id="languages">
+                                <label>Kalbos</label>
+                                <div class="row pb-2">
+                                    <div class="col-4">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-4">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-4">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-4">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-4">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <a href="#">Pridėti</a>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-hobby" role="tabpanel" aria-labelledby="v-pills-hobby-tab">
+                            <form class="pt-5" id="hobby">
+                                <label>Pomėgiai/Hobis</label>
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <a href="#">Pridėti</a>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-links" role="tabpanel" aria-labelledby="v-pills-links-tab">
+                            <form class="pt-5" id="links">
+                                <label>Nuorodos</label>
+                                <div class="row pb-2">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <a href="#">Pridėti</a>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-other" role="tabpanel" aria-labelledby="v-pills-other-tab">
+                            <form class="pt-5" id="other">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Kita info</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- mygtukas -->
+        
+        <footer class="container-fluid"><button type="button" class="btn btn-primary mx-auto d-block" id="myBtn">Sukurti</button></footer>
+    </main>
+    
+    <!-- sukurtas CV -->
+    
+    <section class="" id="newPage">
+        <article class="">
+            <div class="newLogo d-inline" id="newLogo"></div>
+            <div class="float-right d-inline pt-5 pr-5" id="newCon"></div>
+        </article>
+        <div class="pt-5" id="hr"></div>
+        <article class="row">
+            <div class="d-inline pt-5 col-3">
+                <ul class="newSkills pb-5" id="newSkills"></ul>
+                <ul class="newLang" id="newLang"></ul>
+            </div>
+            <div class="newExp text-center col-lg-8 col-md-6 col-sm-12 d-inline pt-5" id="newExp"></div>
+        </article>
+        <article class="row">
+            <div class="d-inline pt-5 col-3">
+                <ul class="newHobby pb-5" id="newHobby"></ul>
+                <ul class="newLinks" id="newLinks"></ul>
+            </div>
+            <div class="newEdu text-center col-lg-8 col-md-6 col-sm-12 d-inline" id="newEdu"></div>
+        </article>
+        <div class="newOther text-center p-5" id="newOther"></div>
+
+
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
